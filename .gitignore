@@ -3,6 +3,10 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+data/ai4i2020.csv
+
+.bkit/*
+
 # C extensions
 *.so
 
