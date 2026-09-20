@@ -11,7 +11,7 @@ train/data/*.csv
 
 # C extensions
 *.so
-
+catboost_info/
 # Distribution / packaging
 .Python
 build/
