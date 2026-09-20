@@ -4,8 +4,10 @@ __pycache__/
 *$py.class
 
 data/ai4i2020.csv
-
+.vscode/
 .bkit/*
+
+train/data/*.csv
 
 # C extensions
 *.so
