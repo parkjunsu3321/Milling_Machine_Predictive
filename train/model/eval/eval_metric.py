@@ -15,3 +15,10 @@ def print_metrics(y, pred_y, title=None):
     print('재현율(recall):', recall_score(y, pred_y))
     print('정밀도(precision):', precision_score(y, pred_y))
     print('f1 score:', f1_score(y, pred_y))
+    data = {
+            "accuracy": accuracy_score(y, pred_y),
+            "recall": recall_score(y, pred_y),
+            "precision": precision_score(y, pred_y),
+            "f1_score": f1_score(y, pred_y)
+            }
+    return data

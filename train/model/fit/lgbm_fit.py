@@ -18,6 +18,6 @@ def train_model():
     pred_test = model.predict(X_test)
     print("---------------------------------")
     print("---------------------------------")
-    print_metrics(y_test, pred_test, "LightGBM 결과")
+    eval = print_metrics(y_test, pred_test, "LightGBM 결과")
     
-    return model
+    return model, eval

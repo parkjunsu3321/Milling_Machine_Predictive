@@ -8,6 +8,8 @@ data/ai4i2020.csv
 .bkit/*
 
 train/data/*.csv
+train/model/eval/data/*.json
+train/model/models/*.pkl
 
 # C extensions
 *.so
